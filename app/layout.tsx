@@ -4,6 +4,7 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 import { CgProfile } from "react-icons/cg";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Influencer Marketing Platform | later",
@@ -18,10 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} ${inter.className} antialiased`}>
-        <div className="bg-slate-100 hover:bg-gray-950 hover:text-gray-200 text-slate-900">
+        <div className="bg-slate-100 hover:bg-gray-950 hover:text-gray-200 text-slate-900 p-1">
           <div className="max-w-6xl mx-auto flex justify-end cursor-pointer">
-            <span className="text-base flex gap-1 items-center"><CgProfile />
-log in</span>
+            <span className="text-base flex gap-1 items-center">
+              <CgProfile />
+              log in
+            </span>
           </div>
         </div>
         {children}
