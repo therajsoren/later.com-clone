@@ -1,7 +1,6 @@
 "use client";
 import { ReactNode, useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { IoIosArrowDown } from "react-icons/io";
 import { AlignJustify } from "lucide-react";
 import { Button } from "./ui/button";
 import {
@@ -18,7 +17,6 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 
 const Header = () => {

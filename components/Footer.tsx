@@ -21,7 +21,13 @@ const Footer = () => {
     setOpenMenu(openMenu == menu ? null : menu);
   };
 
-  const menus = {
+  interface Menus {
+  Products: string[];
+  Company: string[];
+  "Get started": string[];
+  [key: string]: string[];
+}
+  const menus:Menus = {
     Products: [
       "Services",
       "Influencer Marketing",
@@ -121,7 +127,7 @@ const Footer = () => {
                     openMenu === title ? "block" : "hidden"
                   } md:block`}
                 >
-                  {menus[title].map((item, index) => (
+                  {menus[title]?.map((item: string, index: number) => (
                     <li key={index}>
                       <Link href="#" className="hover:text-white">
                         {item}
