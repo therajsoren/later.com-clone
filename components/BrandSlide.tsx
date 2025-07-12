@@ -8,7 +8,6 @@ import logo_echo from "../public/assests/logo-echo.png";
 import logo_pulse from "../public/assests/logo-pulse.png";
 import logo_quantum from "../public/assests/logo-quantum.png";
 import { motion } from "motion/react";
-import ProductMotive from "./ProductMotive";
 
 const slides = [
   {

@@ -4,7 +4,6 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 import { CgProfile } from "react-icons/cg";
-import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Influencer Marketing Platform | later",
