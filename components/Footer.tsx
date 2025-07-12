@@ -140,7 +140,7 @@ const Footer = () => {
           })}
 
           {/* Awards section for md+ */}
-          <div className="hidden md:block w-full md:w-1/4 border-2">
+          <div className="hidden md:block w-full md:w-1/4">
             <h3 className="text-lg font-semibold">Join our newsletter</h3>
             <p className="text-sm text-slate-300">
               Stay updated with the latest news and tips
@@ -216,14 +216,14 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col md:flex-row items-center justify-between gap-2 max-w-6xl mx-auto">
-        <div className="text-sm border-2">
+        <div className="text-sm ">
           <p className="font-semibold">Partnerships</p>
           <a href="#" className="text-blue-400 hover:underline text-xs">
             Become a Partner
           </a>
         </div>
         {/* Logos */}
-        <div className="flex items-center gap-2 border-2 lg:w-[34%] w-full justify-center ">
+        <div className="flex items-center gap-2  lg:w-[34%] w-full justify-center ">
           <img
             src="https://later.com/images/platform-logos/pinterest-icon.png"
             alt="Pinterest Partner"
@@ -253,7 +253,7 @@ const Footer = () => {
           </svg>
         </div>
 
-        <div className="flex flex-wrap items-center justify-center  gap-4 text-sm mt-4 md:mt-0 border-2">
+        <div className="flex flex-wrap items-center justify-center  gap-4 text-sm mt-4 md:mt-0">
           <span className="text-gray-400">
             © 2025 Later. All Rights Reserved.
           </span>
@@ -266,7 +266,7 @@ const Footer = () => {
           <a href="#" className="hover:underline">
             Privacy Policy
           </a>
-          <button className="border border-gray-400 rounded-full px-4 py-1 hover:bg-gray-700">
+          <button className=" border-gray-400 rounded-full px-4 py-1 hover:bg-gray-700">
             Cookie Settings
           </button>
         </div>

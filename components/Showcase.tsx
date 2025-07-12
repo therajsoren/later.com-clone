@@ -1,5 +1,5 @@
 import MarketingImg from "@/public/assests/marketing-creator-era.webp";
-
+import Image from "next/image";
 const Showcase = () => {
   return (
     <div className="pt-8 mt-10 space-y-8">
@@ -17,8 +17,8 @@ const Showcase = () => {
             className="
             max-w-5xl mx-auto"
           >
-            <img
-              src={MarketingImg.src}
+            <Image
+              src={MarketingImg}
               alt="marketing  image"
               className="object-cover"
             />

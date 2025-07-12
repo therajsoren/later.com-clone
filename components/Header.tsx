@@ -12,7 +12,6 @@ import {
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
@@ -21,6 +20,7 @@ import {
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(true);
+  //@ts-ignore
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -99,7 +99,7 @@ const Header = () => {
                   <h1 className="hover:bg-sky-400">
                     Influencer marketing <br />
                     <span className="text-sm font-normal">
-                      Let's talk strategy
+                      Let&aposs talk strategy
                     </span>
                   </h1>
                   <h1 className="hover:bg-sky-400">
