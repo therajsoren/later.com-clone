@@ -15,9 +15,9 @@ import {
 import { FaThreads, FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
-  const [openMenu, setOpenMenu] = useState(null);
+  const [openMenu, setOpenMenu] = useState<string | null>(null);
 
-  const toggleMenu = (menu: any) => {
+  const toggleMenu = (menu: string) => {
     setOpenMenu(openMenu == menu ? null : menu);
   };
 
