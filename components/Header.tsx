@@ -20,8 +20,7 @@ import {
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(true);
-  //@ts-ignore
-  const [menuOpen, setMenuOpen] = useState(false);
+  // const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
